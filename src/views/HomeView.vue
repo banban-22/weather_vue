@@ -35,7 +35,7 @@
       <Suspense>
         <CityList />
         <template #fallback>
-          <p>Loading...</p>
+          <CityCardSkeleton />
         </template>
       </Suspense>
     </div>
